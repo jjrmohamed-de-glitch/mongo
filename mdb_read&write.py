@@ -1,12 +1,11 @@
 import pymongo
 from pymongo import MongoClient
 import pandas as pd
-import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 pd.set_option('display.max_columns', None)
-
+#Sample modified
 # ==============================
 # MongoDB Connection
 # ==============================
